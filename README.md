@@ -1,4 +1,4 @@
-# useMermaid-hook
+# useMermaid
 
 A React hook for using Mermaid
 
