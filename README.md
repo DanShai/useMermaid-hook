@@ -23,3 +23,7 @@ const ExampleMermaid = () => {
   return <div dangerouslySetInnerHTML={{ __html: svg }} />;
 };
 ```
+
+### class diagram working with my mermaid fix (look PR at mermaid)
+
+![Screenshot](/uml.png)
