@@ -24,6 +24,9 @@ const ExampleMermaid = () => {
 };
 ```
 
-### class diagram working with my mermaid fix (look PR at mermaid)
+### class diagram working with my mermaid fix
+
+the issue opened here : [class diagram fix issue](https://github.com/knsv/mermaid/issues/794)
+the PR opened here : [class diagram fix PR](https://github.com/knsv/mermaid/pull/795)
 
 ![Screenshot](/uml.png)
