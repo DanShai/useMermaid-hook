@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import mermaid from "mermaid";
+import { useEffect, useState } from "react";
 
 export const useMermaid = (id, content) => {
   const [svg, setSvg] = useState(null);
@@ -15,7 +15,7 @@ export const useMermaid = (id, content) => {
     mermaid.mermaidAPI.render(id, content, svgraph => {
       setSvg(svgraph);
     });
-  }, [svg]);
+  }, [id,content]);
 
   return svg;
 };
